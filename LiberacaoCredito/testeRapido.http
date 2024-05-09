@@ -1,0 +1,10 @@
+﻿// Teste de CONSIGNADO para ser APROVADO
+POST https://localhost:7081/ProcessarRequisicao
+Content-Type: application/json
+
+{
+  "valorCredito": 100,
+  "tipoCredito": "CONSIGNADO",
+  "quantidadeParcelas": 10,
+  "primeiroVencimento": "2024-05-29"
+}
